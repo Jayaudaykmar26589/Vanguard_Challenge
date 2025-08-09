@@ -1,0 +1,7 @@
+cirq
+pyqubo
+numpy
+scipy
+dwave-neal
+matplotlib
+pandas
