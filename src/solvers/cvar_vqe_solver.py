@@ -5,6 +5,7 @@ from typing import Dict, Tuple, List, Any
 from .base_solver import BaseSolver
 from ..analysis.utils import qubo_to_ising_hamiltonian, get_bitstring_energy
 
+
 class CVaRVQESolver(BaseSolver):
     """Solves with CVaR-VQE, optimizing for the average of the worst-case results."""
     def __init__(self, alpha: float = 0.2, max_iter: int = 150):
